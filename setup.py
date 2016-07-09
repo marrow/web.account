@@ -116,10 +116,10 @@ setup(
 			# #### WebCore Extensions
 			'web.account.provider': [
 					'local = web.account.local:LocalProvider',
-					'facebook = web.account.:Provider',
-					'github = web.account.:Provider',
-					'linkedin = web.account.:Provider',
-					'twitter = web.account.:Provider',
+					'facebook = web.account.facebook:FacebookProvider',
+					'github = web.account.github:GithubProvider',
+					'linkedin = web.account.linkedin:LinkedinProvider',
+					'twitter = web.account.twitter:TwitterProvider',
 					'u2f = web.account.u2f:UniversalSecondFactorProvider',
 					'yubikey = web.account.yubikey:YubikeyProvider',
 				],
